@@ -1,0 +1,9 @@
+ipykernel
+numpy
+matplotlib
+seaborn
+pandas
+tensorflow
+
+# For side projects
+opencv-python
