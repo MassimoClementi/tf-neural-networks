@@ -2,7 +2,7 @@
 Scripts, projects and exercises that are based on the TensorFlow framework
 
 
-## Structure of the folder at 2021-04-09
+## Structure of the folder at 2021-04-14
 ```
     .
     ├── LICENSE
@@ -13,10 +13,12 @@ Scripts, projects and exercises that are based on the TensorFlow framework
     │   ├── 0_Basics_and_MLP.py
     │   ├── 1_IRIS_dataset_and_MLP.py
     │   ├── 2_MNIST_dataset_and_CNNs.py
+    │   ├── 3_CIFAR_and_tf_data_module.py
     │   └── archive
     ├── requirements.txt
     ├── saved_models
-    │   └── 2_MNIST_dataset_and_CNNs
+    │   ├── 2_MNIST_dataset_and_CNNs
+    │   └── 3_CIFAR_and_tf_data_module
     ├── setup.sh
     ├── side_projects
     │   └── MNIST-opencv
