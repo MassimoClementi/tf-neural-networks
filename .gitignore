@@ -1,9 +1,6 @@
 # Virtual environment
 venv
 
-# Trained models
-saved_models
-
 # Most of the datasets
 datasets
 

@@ -235,7 +235,7 @@ for epoch in range(epochs):
 
     ''' Save weights every 20 epochs '''
     if epoch % 25 == 0:
-      file_str = 'epoch_{e}_weights'.format(
+      file_str = '../saved_models/3_CIFAR_and_tf_data_module/epoch_{e}_weights'.format(
           e=str(epoch).zfill(3)
       )
       model.save_weights(file_str)
@@ -248,7 +248,7 @@ for epoch in range(epochs):
     train_acc_metric.reset_states()
     test_acc_metric.reset_states()
 
-file_str = 'epoch_FINAL_weights'
+file_str = '../saved_models/3_CIFAR_and_tf_data_module/epoch_FINAL_weights'
 model.save_weights(file_str)
 print('Final weights saved as',file_str)
 print('END of training!')
